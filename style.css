@@ -108,7 +108,51 @@ button {
   margin: 0 auto;
   width: 785px;
   height: 585px;
-  margin: 2px solid black;
+  border: 2px solid black;
+}
+
+.winalign{
+  margin: 0 auto;
+  width: 150px;
+  height: 66px;
+  display: flex;
+  gap:1rem;
+  position:absolute;
+  top:220px;
+  left:800px;
+   border-radius: 10px;
+}
+.explorealign{
+  margin: 0 auto;
+  width: 173px;
+  height: 74px;
+  display: flex;
+  gap:1rem;
+  position:absolute;
+  top:350px;
+    padding:5px;
+  right:5px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+   border-radius: 10px;
+
+}
+.staralign{
+  margin: 0 auto;
+  width: 192px;
+  height: 68px;
+  display: flex;
+  gap:1rem;
+  position:absolute;
+  top:470px;
+  left:800px;
+  background-color: white;
+  padding:10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+
 }
 
 .foot{
@@ -119,6 +163,7 @@ button {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 80px;
+  padding-top: 50px;
 
 }
 .foot1{
@@ -170,6 +215,7 @@ button {
     gap:1rem;
     justify-content: center;
     align-items: center;
+    padding-top: 30px;
 }
 .threecomp{
   margin: 0 auto;
@@ -246,6 +292,7 @@ gap:1.5rem;
     justify-content: space-between;
     align-items: center;
     gap:8rem;
+ 
     
 
 }
